@@ -1,16 +1,55 @@
-## Hi there 👋
+![Profile views](https://komarev.com/ghpvc/?username=omprakashbest\&color=blue)
 
-<!--
-**omprakashbest/omprakashbest** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Hello there 👋 Welcome to my GitHub Profile!
 
-Here are some ideas to get you started:
+My name is **Om Prakash 😄**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Programmer 💻**| **Python Developer 🐍** | **AI/ML Learner 🤖** from **India 🇮🇳**.
+
+---
+
+### 🌱 I'm currently learning
+
+* 🐍 Python for AI/ML
+* 📊 Data Analysis 
+* 🤖 Data Science 
+* 🧠 Advanced Data Structures Algorithm
+
+---
+
+### 📫 How to reach me
+
+* 💼 LinkedIn: *(omprakashbest)*
+* 📧 Email: *(omprakashbest3@gmail.com)*
+
+---
+
+### 😄 Hobbies
+
+* 💻 Gamer 
+* 📚 Learning new technologies
+* 🧠 Solving programming problems
+
+---
+
+### 🛠 Languages and Tools
+
+* 🐍 Python
+* ☕ Java
+* 📊 Pandas
+* 🔢 NumPy
+* 📈 Matplotlib
+* 🧠 Machine Learning (learning)
+* 🔧 Git & GitHub
+
+---
+
+### 📊 My GitHub Statistics
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=omprakashbest\&show_icons=true\&theme=tokyonight)
+
+---
+
+### 🔥 My Contribution Streak
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=omprakashbest\&theme=tokyonight)
