@@ -2,7 +2,7 @@
 
 # Hello there 👋 Welcome to my GitHub Profile!
 
-My name is **Om Prakash 😄**
+I'm **Om Prakash 😄**
 
 **Programmer 💻**| **Python Developer 🐍** | **AI/ML Learner 🤖** from **India 🇮🇳**.
 
