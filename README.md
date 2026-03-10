@@ -13,7 +13,7 @@ I'm **Om Prakash 😄**
 * 🐍 Python for AI/ML
 * 📊 Data Analysis 
 * 🤖 Data Science 
-* 🧠 Advanced Data Structures Algorithm
+* 🧠 Data Structures & Algorithm
 
 ---
 
@@ -35,12 +35,12 @@ I'm **Om Prakash 😄**
 ### 🛠 Languages and Tools
 
 * 🐍 Python
-* ☕ Java
 * 📊 Pandas
 * 🔢 NumPy
 * 📈 Matplotlib
+* 📈 Seaborn
 * 🧠 Machine Learning (learning)
-* 🔧 Git & GitHub
+* 🔧 Git & GitHub & VS Code
 
 ---
 
