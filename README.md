@@ -11,6 +11,7 @@ I'm **Om Prakash 😄**
 ### 🌱 I'm currently learning
 
 * 🐍 Python for AI/ML
+* 🤖 Data Analysis
 * 🤖 Data Science 
 * 🧠 Data Structures & Algorithm
 
@@ -26,8 +27,6 @@ I'm **Om Prakash 😄**
 ### 😄 Hobbies
 
 * 💻 Gamer 
-* 📚 Learning new technologies
-* 🧠 Solving programming problems
 
 ---
 
