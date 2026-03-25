@@ -37,6 +37,9 @@ I'm **Om Prakash 😄**
 * 🔢 NumPy
 * 📈 Matplotlib
 * 📈 Seaborn
+* 📊 MySQL
+* 📒 Jupyter Notebook
+* 📊 Excel
 * 🧠 Machine Learning (learning)
 * 🔧 Git & GitHub & VS Code
 
