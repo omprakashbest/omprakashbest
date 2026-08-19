@@ -18,15 +18,13 @@ I’m building practical skills in turning raw data into clear insights and usef
 - Creating interactive dashboards that communicate insights simply
 - Strengthening statistics and machine-learning fundamentals
 
-## Portfolio Projects
+## Featured Projects
 
 | Project | What it demonstrates | Tools |
 | --- | --- | --- |
-| Sales Performance Dashboard | Revenue trends, product performance, and regional insights | Excel / Power BI / SQL |
-| Customer Churn Analysis | Data cleaning, exploratory analysis, and actionable retention insights | Python / Pandas / Seaborn |
-| SQL Business Case Study | Queries that answer operational and customer questions | SQL |
-
-> I’m actively building these projects. Each repository will include a clear problem statement, dataset source, analysis, findings, and recommendations.
+| [Meta Ad Performance Dashboard](https://github.com/omprakashbest/PowerBI-Meta-Ad-Performance-Dashboard) | Interactive analysis of Meta advertising campaigns, including reach, engagement, conversions, audience segments, and budget performance | Power BI / Power Query / DAX |
+| [Retail Orders Analysis](https://github.com/omprakashbest/Retail-Orders-Analysis) | Analysis of retail-order data to uncover sales and operational insights | Data Analysis |
+| [EdTeach Online Courses Dashboard](https://github.com/omprakashbest/PowerBI-EdTeach-Online-Courses-Analysis-Dashboard) | Interactive dashboard for analysing online-course data and performance | Power BI / Dashboarding |
 
 ## Tools & Technologies
 
@@ -34,8 +32,8 @@ I’m building practical skills in turning raw data into clear insights and usef
 
 ## Let’s Connect
 
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/omprakashbest/)
-- Email: [email](mailto:omprakashbest3@example.com)
+- LinkedIn: [omprakashbest](https://www.linkedin.com/in/omprakashbest)
+- Email: [omprakashbest3@gmail.com](mailto:omprakashbest3@gmail.com)
 
 ---
 
