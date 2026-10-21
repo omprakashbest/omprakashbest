@@ -1,40 +1,81 @@
-# Hi, I'm Om Prakash 👋
+# Customer Churn Analysis
 
-### Aspiring Data Analyst & Data Science Learner
+A Python and SQLite project that prepares customer-level subscription data and analyzes churn patterns across plans, locations, and support interactions.
 
-I’m building practical skills in turning raw data into clear insights and useful business decisions. I enjoy exploring datasets, creating dashboards, and learning the tools that make data work reliable and easy to understand.
+## Project overview
 
-## What I’m Learning
+This project combines customer, subscription, and support data from a SQLite database to create an analysis-ready churn dataset. The analysis focuses on churn rate, retention, plan-level churn, monthly charges associated with churned customers, support escalations, and churn-risk segments.
 
-- **Data analysis:** Excel, SQL, Python, and statistics
-- **Data visualization:** Power BI, Tableau, Matplotlib, and Seaborn
-- **Python libraries:** Pandas, NumPy, and Jupyter Notebook
-- **Data science foundations:** data cleaning, exploratory data analysis, and machine learning basics
+## Key findings
 
-## Current Focus
+- Overall churn rate: **28.57%** — 6 of 21 customers churned.
+- Retention rate: **71.43%**.
+- The **Basic** plan had the highest churn rate at **60.00%**, compared with **22.22%** for Standard and **14.29%** for Premium.
+- Churned customers accounted for **73.94** in monthly charges within this sample.
 
-- Building end-to-end data analysis projects with real-world datasets
-- Writing clear SQL queries to answer business questions
-- Creating interactive dashboards that communicate insights simply
-- Strengthening statistics and machine-learning fundamentals
+> Note: This is a small portfolio dataset. Findings are descriptive and should not be treated as statistically conclusive.
 
-## Featured Projects
+## Tools used
 
-| Project | What it demonstrates | Tools |
-| --- | --- | --- |
-| [Meta Ad Performance Dashboard](https://github.com/omprakashbest/PowerBI-Meta-Ad-Performance-Dashboard) | Interactive analysis of Meta advertising campaigns, including reach, engagement, conversions, audience segments, and budget performance | Power BI / Power Query / DAX |
-| [Retail Orders Analysis](https://github.com/omprakashbest/Retail-Orders-Analysis) | Analysis of retail-order data to uncover sales and operational insights | Data Analysis |
-| [EdTeach Online Courses Dashboard](https://github.com/omprakashbest/PowerBI-EdTeach-Online-Courses-Analysis-Dashboard) | Interactive dashboard for analysing online-course data and performance | Power BI / Dashboarding |
+- Python
+- Pandas and NumPy
+- SQLite
+- Matplotlib and Seaborn
+- Jupyter Notebook
+- Excel
 
-## Tools & Technologies
+## Data model
 
-`Python` · `SQL` · `Excel` · `Power BI` · `Pandas` · `NumPy` · `Matplotlib` · `Seaborn` · `Git` · `GitHub`
+The SQLite database contains three related tables joined using `customerid`.
 
-## Let’s Connect
+| Table | Description |
+| --- | --- |
+| `db_customer` | Customer demographics and location details |
+| `db_subscription` | Subscription, plan, contract, charges, cancellation, and churn-score data |
+| `db_support` | Customer complaints, escalations, and CSAT data |
 
-- LinkedIn: [omprakashbest](https://www.linkedin.com/in/omprakashbest)
-- Email: [omprakashbest3@gmail.com](mailto:omprakashbest3@gmail.com)
+## Data preparation
 
----
+The notebook performs the following steps:
 
-*Open to learning, collaboration, and entry-level opportunities in data analytics and data science.*
+- Renames and removes unnecessary columns.
+- Standardizes gender values and fills missing country values using state mappings.
+- Converts date fields into date format.
+- Creates `churn_Flag`, where `1` represents a customer with a cancellation date.
+- Counts support complaints and retains the latest support interaction for customers with multiple records.
+- Merges the three tables into a customer-level dataset.
+- Exports the cleaned dataset as `exported_churn_data.csv`.
+
+## Analysis performed
+
+- Overall churn and retention analysis
+- Churn by plan type and state
+- Monthly churn trend
+- Average revenue per user analysis
+- Monthly charges associated with churned customers
+- Support escalation and churn relationship analysis
+- Customer churn-risk segmentation
+
+## Project structure
+
+```text
+.
+├── Data/
+│   ├── customer_churn.db
+│   └── customer_churn_data_raw.xlsx
+├── churn_analysis.ipynb
+├── exported_churn_data.csv
+└── README.md
+```
+
+## Visualizations
+
+The notebook includes charts for monthly churn trends, churn by plan type, churn by state, correlation analysis, and customer-risk segments.
+
+View the analysis notebook: [churn_analysis.ipynb](churn_analysis.ipynb)
+
+## Limitations
+
+- The dataset contains only 21 customers, so segment-level findings are directional.
+- Churn is defined only by the presence of a cancellation date.
+- This project analyzes historical churn patterns; it does not build a machine-learning prediction model.
