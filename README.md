@@ -15,6 +15,7 @@ I am actively building projects in data cleaning, exploratory analysis, dashboar
 - 🐍 Building practical projects with Python, Pandas, SQL, Excel, Power BI, and Jupyter Notebook
 - 🌱 Currently strengthening my skills in statistics, SQL, Python, data visualization, and machine learning
 - 🤝 Open to Data Analyst and Data Science internship opportunities
+- 🎮 Fun fact: I enjoy playing games in my free time.
 
 ---
 
